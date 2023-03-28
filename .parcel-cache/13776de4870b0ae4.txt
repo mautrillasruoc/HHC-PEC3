@@ -1,4 +1,4 @@
-7310
+7312
 59C:\Users\maur8\HHC\PEC1\node_modules\js-tokens\package.json133242355734320738 0
 36C:\Users\maur8\HHC\PEC1\package.json133244777710359711 0
 60C:\Users\maur8\HHC\PEC1\node_modules\css-select\lib\index.js133242355728546184 0
@@ -9,7 +9,7 @@
 75C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2015\InstanceofOperator.js133242378018366573 0
 68C:\Users\maur8\HHC\PEC1\node_modules\caniuse-lite\data\regions\SZ.js133242355792983854 0
 64C:\Users\maur8\HHC\PEC1\node_modules\source-map\lib\array-set.js133242355722113387 0
-28C:\Users\maur8\HHC\PEC1\dist133244778029935026 1
+28C:\Users\maur8\HHC\PEC1\dist133244789211008394 1
 71C:\Users\maur8\HHC\PEC1\node_modules\type-fest\ts41\delimiter-case.d.ts133242355743117217 0
 59C:\Users\maur8\HHC\PEC1\node_modules\picomatch\package.json133242355738260201 0
 72C:\Users\maur8\HHC\PEC1\node_modules\npm-run-all\node_modules\color-name133242378023991517 1
@@ -58,7 +58,7 @@
 56C:\Users\maur8\HHC\PEC1\node_modules\@parcel\packager-js133242355878584950 1
 73C:\Users\maur8\HHC\PEC1\node_modules\resolve\test\module_dir\ymodules\aaa133242378015972960 1
 91C:\Users\maur8\HHC\PEC1\node_modules\@swc\helpers\lib\_class_static_private_field_update.js133242355762126371 0
-38C:\Users\maur8\HHC\PEC1\src\index.html133242377239728937 0
+38C:\Users\maur8\HHC\PEC1\src\index.html133244789091787245 0
 73C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\IsDataDescriptor.js133242378018845289 0
 73C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\IteratorComplete.js133242378019732933 0
 38C:\Users\maur8\HHC\PEC1\src\styles.css133244758833009423 0
@@ -892,6 +892,7 @@
 59C:\Users\maur8\HHC\PEC1\node_modules\safe-buffer\index.d.ts133242355748113850 0
 81C:\Users\maur8\HHC\PEC1\node_modules\@swc\helpers\lib\_assert_this_initialized.js133242355761857099 0
 51C:\Users\maur8\HHC\PEC1\node_modules\yaml\schema.js133242355744513480 0
+46C:\Users\maur8\HHC\PEC1\dist\index.7b1ccb22.js133244789210958522 0
 69C:\Users\maur8\HHC\PEC1\node_modules\term-size\vendor\macos\term-size133242355759762697 0
 75C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2017\ArraySpeciesCreate.js133242378010717025 0
 121C:\Users\maur8\HHC\PEC1\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-glob\package.json133242355771082426 0
@@ -1752,6 +1753,7 @@
 91C:\Users\maur8\HHC\PEC1\node_modules\@swc\helpers\lib\_class_check_private_static_access.js133242355761986750 0
 76C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2021\OrdinaryHasProperty.js133242378021378509 0
 71C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2021\StringToBigInt.js133242378023253494 0
+50C:\Users\maur8\HHC\PEC1\dist\index.3b9b369a.js.map133244789211008394 0
 83C:\Users\maur8\HHC\PEC1\node_modules\caniuse-lite\data\features\cookie-store-api.js133242355759782650 0
 71C:\Users\maur8\HHC\PEC1\node_modules\svgo\plugins\convertShapeToPath.js133242355770713414 0
 85C:\Users\maur8\HHC\PEC1\node_modules\caniuse-lite\data\features\css-default-pseudo.js133242355760041954 0
@@ -5004,6 +5006,7 @@
 79C:\Users\maur8\HHC\PEC1\node_modules\caniuse-lite\data\features\magnetometer.js133242355774952072 0
 78C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\DefinePropertyOrThrow.js133242378014197712 0
 78C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\DeletePropertyOrThrow.js133242378014257549 0
+46C:\Users\maur8\HHC\PEC1\dist\index.3b9b369a.js133244789210958522 0
 75C:\Users\maur8\HHC\PEC1\node_modules\@swc\helpers\src\_write_only_error.mjs133242355785593616 0
 74C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\DetachArrayBuffer.js133242378014307416 0
 83C:\Users\maur8\HHC\PEC1\node_modules\es-abstract\2019\EnumerableOwnPropertyNames.js133242378014367255 0
@@ -7304,8 +7307,7 @@
 50C:\Users\maur8\HHC\PEC1\node_modules\.bin\svgo.ps1133242356867330662 0
 51C:\Users\maur8\HHC\PEC1\node_modules\.bin\which.cmd133242378026075943 0
 51C:\Users\maur8\HHC\PEC1\node_modules\.bin\which.ps1133242378026075943 0
-46C:\Users\maur8\HHC\PEC1\dist\index.0641b553.js133244778029915075 0
-50C:\Users\maur8\HHC\PEC1\dist\index.0641b553.js.map133244778029935026 0
-47C:\Users\maur8\HHC\PEC1\dist\index.4d663569.css133244778029665744 0
-51C:\Users\maur8\HHC\PEC1\dist\index.4d663569.css.map133244778029705643 0
-39C:\Users\maur8\HHC\PEC1\dist\index.html133244778029875192 0
+50C:\Users\maur8\HHC\PEC1\dist\index.7b1ccb22.js.map133244789211008394 0
+47C:\Users\maur8\HHC\PEC1\dist\index.d7a32e6f.css133244789210958522 0
+51C:\Users\maur8\HHC\PEC1\dist\index.d7a32e6f.css.map133244789211008394 0
+39C:\Users\maur8\HHC\PEC1\dist\index.html133244789210958522 0
