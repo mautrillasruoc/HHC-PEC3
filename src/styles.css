@@ -1,10 +1,313 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+/**Estilos para el sitio web de Amberes (Bélgica)*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	height: 100vh;
-	color: #1f1f1f;
-	background: linear-gradient(to bottom, #bada55, #c0ffee);
+    font-family: 'Signika', sans-serif;
+    font-weight: 400;
+    color: black;
+    line-height: 1.5;
 }
+
+h1, h2, h3 {   
+    font-weight: 700;
+    color: black;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+a.more::after {
+    content:" →";
+    display: inline-block;
+    width: 3rem;
+    height: 2rem;
+}
+
+h1 {
+    font-size: 3.25rem;
+    margin-bottom: 1.5rem;
+    line-height: 1em;
+    color: gray;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 1em;
+}
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;    
+    background-color: #db0a13;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+section {
+
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+}
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+}
+@media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+}
+
+/********************
+	CABECERA
+********************/
+.logotipo {
+    text-align: center;
+    font-weight: 700;
+	font-size: 4rem;
+}
+.logotipo a {
+    color: #e6545a;  
+}
+.logotipo a:hover {
+    border: none;
+    color: #db0a13;
+}
+
+nav.nav {
+    text-align: center;
+    color: #e6545a;
+}
+nav.nav ul {
+    margin-top: 1rem;
+    list-style-type: none;
+}
+nav.nav ul li {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+nav.nav ul li a {
+    color: inherit;
+}
+nav.nav ul li a:hover {
+    border: none;
+    color: #db0a13;
+}
+nav.nav a.active {
+    border-bottom: 3px solid currentColor;
+}
+nav.nav a.active:hover {
+    border-bottom: 3px solid currentColor;
+}
+@media (min-width: 992px) {
+    nav.nav {
+        text-align: left;
+    }
+    nav.nav ul li {
+        display: inline-block;
+        padding-right: 30px;
+    }    
+    nav.nav ul li:last-child {
+        padding-right: 0;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+
+/********************************
+			FOOTER
+*********************************/
+footer ul li {
+    display: block;
+}
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #F1E1E1;
+    border: none;
+}
+
+footer .firma {
+    margin-top: 2rem;
+}
+footer .firma p {
+    font-size: 0.7rem;
+    margin-bottom: 0.5em;
+}
+@media (min-width: 768px) {
+    footer ul li {
+        display: inline-block;
+        padding-left: 1rem;
+    }
+    footer ul li:first-child {
+        padding-left: 0;
+    }    
+    footer ul li:last-child {
+        padding-right: 0;
+    } 
+    .firma {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/****************************
+		CATEGORÍA
+****************************/
+.lista-sitios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.lista-sitios li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lista-sitios li div {
+  width: 100%;
+}
+
+.lista-sitios li div:first-child {
+  margin-bottom: 10px;
+}
+
+.lista-sitios li span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.lista-sitios li img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.lista-sitios li p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.lista-sitios li p a{
+  color: #e6545a;
+}
+
+.lista-sitios li p a:hover{
+  color: #db0a13;
+}
+
+/************************
+		DETALLE
+************************/
+
+article h1{
+	text-align:center;
+}
+
+figcaption {
+  margin-bottom: 10px;
+}
+
+article p {
+	text-align: justify;
+}
+
+figure, figcaption p{
+	text-align:center;
+}
+
+@media (max-width: 740px) {
+	figure img{
+		height: 90%;
+		width: 90%;
+	}
+	
+	.imagen-portada{
+		height: 80%;
+		width: 80%;
+	}
+	
+	.lista-sitios {
+		display: block;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.container ul {
+		font-size: 0.6rem;
+	}
+	
+}
+
+@media (max-width: 1200px) {
+	
+	.imagen-portada{
+		height: 80%;
+		width: 80%;
+	}
+}
+
+
+
+
