@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amberes - La ciudad del diamante</title>
 	<meta name="description" content="Página de categoría del sitio web de Amberes. Información sobre principales actividades turísticas en esta ciudad de Bélgica">
+	<link rel="icon" type="image/png" href="img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -16,9 +17,20 @@
   
 	<header>
 		<div class="container">
-				<div class="logotipo">
-					<a href="index.html"><img src="img/escudo.png" alt="Logo del sitio" title="Amberes"> Amberes</a>
-				</div>
+				<a href="index.html">
+					<div class="logotipo">
+						<svg width="250" height="200">
+							<polygon points="70,10 180,10 230,75 230,125 180,190 70,190 20,125 20,75"/>
+							<image xlink:href="img/escudo.png" x="90" y="20" />
+							<text x="40" y="115" fill="#fff">Amberes</text>
+							<g x="100" y="175" transform="scale(0.3) translate(375, 375)">
+								<rect x="-60" y="60" width="200" height="22.23" style="fill:#FF0000; stroke:#000; stroke-width:1;"/>
+								<rect x="-60" y="82.23" width="200" height="22.23" style="fill:#FDD835; stroke:#000; stroke-width:1;"/>
+								<rect x="-60" y="104.46" width="200" height="22.23" style="fill:#000; stroke:#000; stroke-width:1;"/>
+							</g>
+						</svg>
+					</div>
+				</a>
 				<nav class="nav">
 					<ul>
 						<li><a href="presentacion.html">Presentación</a></li>
@@ -146,13 +158,25 @@
 	
 	<footer>
 		<div class="container">
+			<div class="logotipo-pie">
+					<svg width="250" height="200">
+						<polygon points="70,10 180,10 230,75 230,125 180,190 70,190 20,125 20,75"/>
+						<image xlink:href="img/escudo.png" x="90" y="20" />
+						<text x="40" y="115" fill="#fff">Amberes</text>
+						<g x="100" y="175" transform="scale(0.3) translate(375, 375)">
+							<rect x="-60" y="60" width="200" height="22.23" style="fill:#FF0000; stroke:#000; stroke-width:1;"/>
+							<rect x="-60" y="82.23" width="200" height="22.23" style="fill:#FDD835; stroke:#000; stroke-width:1;"/>
+							<rect x="-60" y="104.46" width="200" height="22.23" style="fill:#000; stroke:#000; stroke-width:1;"/>
+						</g>
+					</svg>
+			</div>
 			<ul>
-				<li><a href="">Aviso legal</a></li>
-				<li><a href="">Política de privacidad</a></li>
-				<li><a href="">Política de cookies</a></li>
+				<li><a href="presentacion.html">Presentación</a></li>
+				<li><a href="categoria.html">Categoría</a></li>
+				<li><a href="enlaces.html">Enlaces</a></li>
 			</ul>
 			<div class="firma">
-				<p>2023 &copy; Herramientas HTML & CSS I</p>
+				<p>2023 © Herramientas HTML & CSS I</p>
 				<p>Actividad realizada por Miguel Ángel Utrillas Ramírez</p>
 			</div>
 		</div>
