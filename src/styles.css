@@ -365,7 +365,7 @@ figure, figcaption p{
 	}
 }
       
-#diamante {
+.diamante {
 	animation: shine 2s linear infinite;
 }
 
