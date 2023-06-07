@@ -1,0 +1,25 @@
+{
+  "resources": [
+    {
+      "resourceType": "image",
+      "budget": {
+        "resourceCount": 10,
+        "sizeLimit": "1MB"
+      }
+    },
+    {
+      "resourceType": "script",
+      "budget": {
+        "resourceCount": 5,
+        "sizeLimit": "200KB"
+      }
+    },
+    {
+      "resourceType": "stylesheet",
+      "budget": {
+        "resourceCount": 2,
+        "sizeLimit": "100KB"
+      }
+    }
+  ]
+}
